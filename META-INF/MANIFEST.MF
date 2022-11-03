@@ -12,7 +12,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.text;bundle-version="3.5.200",
  org.eclipse.jdt.ui;bundle-version="3.24.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-15
-Automatic-Module-Name: com.icsoft.lyh.codeelementprefict
+Automatic-Module-Name: com.icsoft.lyh.codeelementpredict
 Bundle-ActivationPolicy: lazy
 Import-Package: javax.inject,
  org.eclipse.search.internal.ui.text
