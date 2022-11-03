@@ -30,7 +30,7 @@ Task Context automatically tracks the code element click behavior in both the co
 </div>
 
 For instance, Task Context will automatically capture the code element *InterestCodeView*, and recommend elements in the *Suggestions* view that may be of interest to the developer.
-When clicking on a code element in the Suggestions* view, the editor jumps to the source code of that code element.
+When clicking on a code element in the *Suggestions* view, the editor jumps to the source code of that code element.
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="600px">
