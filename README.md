@@ -5,7 +5,11 @@ The repository is the republication package of paper---ICSE_2023_Task Context: A
 1. **Obtain the plug-in**: Download this repository and unzip it, and then copy the deployable plug-in (**edu.zju.icsoft.taskcontext_1.0.0.202211031347.jar**) from it.
 2. **Integrate the plug-in into Eclipse**: Paste the deployable plug-in into the **dropins** folder in the Eclipse root directory.
 3. Restart Eclipse.
-4. Click **Window** -> **Show View** -> **Other...** -> **InterestView**. Open **Task Context** view and **Suggestions** view. Researchers could adjust them to a comfortable position and size.
+
+# Configuration
+Before performing development tasks, researchers should open **Task Context** view and **Suggestions** view as follow:  
+Click **Window** -> **Show View** -> **Other...** -> **InterestView**. Open **Task Context** view and **Suggestions** view.  
+Researchers could adjust the two views to a comfortable position and size.
 
 # Usage
 
