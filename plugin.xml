@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+  <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="InterestView"
+            id="CodePredict">
+      </category>
+      <view
+            id="edu.zju.icsoft.taskcontext.view.InterestCodeView"
+            name="Task Context"
+            icon="icons/task.png"
+            class="edu.zju.icsoft.taskcontext.view.InterestCodeView"
+            category="CodePredict"
+            inject="true">
+      </view>
+      <view
+            id="edu.zju.icsoft.taskcontext.view.PredictCodeView"
+            name="Suggestions"
+            icon="icons/suggest.png"
+            class="edu.zju.icsoft.taskcontext.view.PredictCodeView"
+            category="CodePredict"
+            inject="true">
+      </view>
+   </extension>
+  <extension
+        point="org.eclipse.ui.preferencePages">
+     <page
+           class="edu.zju.icsoft.taskcontext.preferences.TaskContextPreferencePage"
+           id="edu.zju.icsoft.taskcontext.preferences.TaskContextPreferencePage"
+           name="Task Context">
+     </page>
+  </extension>
+  <extension
+        point="org.eclipse.core.runtime.preferences">
+     <initializer
+           class="edu.zju.icsoft.taskcontext.preferences.PreferenceInitializer">
+     </initializer>
+  </extension>
+
+ 
+
+
+</plugin>
