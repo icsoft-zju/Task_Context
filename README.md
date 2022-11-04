@@ -21,7 +21,7 @@ Researchers could adjust the two views to a comfortable position and size.
 </div>
 
 # Usage
-When performing programming tasks, the developer will find task-related code elements by navigating and searching. Specifically, the developer may access code elements of interest by clicking on it in the code structure view or in the code search results.  
+When performing programming tasks, the developer will find task-related code elements by navigating and searching. Specifically, the developer may access code elements of interest by clicking on it in code structure views or in the code search results view.  
 
 Task Context automatically tracks the code element click behavior in both the code structure view (e.g., *Package Explorer*, *Project Explorer*, *Outline*, *Call Hierarchy*, *Type Hierarchy*, *Task Context*, and *Suggestions*) and the search results view (i.e., the result view of *Java Search*).
 
