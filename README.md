@@ -36,6 +36,9 @@ When clicking on a code element in the *Suggestions* view, the editor jumps to t
 <img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="600px">
 </div>
 
+Note that when the recommendation range is large and many nodes are involved, *Task Context* may take too long to recommend. At this point, *Task Context* will pop up a timeout reminder and the developer can lower the parameter *prediction step* to narrow the recommendation.
+
+
 # Source Code Introduction
 
 ## edu.zju.icsoft.taskcontext.view
