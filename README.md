@@ -26,18 +26,21 @@ When performing programming tasks, the developer will find task-related code ele
 Task Context automatically tracks the code element click behavior in both the code structure view (e.g., *Package Explorer*, *Project Explorer*, *Outline*, *Call Hierarchy*, *Type Hierarchy*, *Task Context*, and *Suggestions*) and the search results view (i.e., the result view of *Java Search*).
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/94530603/199675774-a84d0af9-fb24-4b5f-b571-a6e487497fb0.png" width="300px">
+<img src="https://user-images.githubusercontent.com/94530603/199675774-a84d0af9-fb24-4b5f-b571-a6e487497fb0.png" width="400px">
 </div>
 
 For instance, Task Context will automatically capture the code element *InterestCodeView*, and recommend elements in the *Suggestions* view that may be of interest to the developer.
 When clicking on a code element in the *Suggestions* view, the editor jumps to the source code of that code element.
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="600px">
+<img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="700px">
 </div>
 
 Note that when the recommendation range is large and many nodes are involved, *Task Context* may take too long to recommend. At this point, *Task Context* will pop up a timeout reminder and the developer can lower the parameter *prediction step* to narrow the recommendation.
 
+<div align=center>
+<img src="https://user-images.githubusercontent.com/94530603/199949355-8b034a93-90a0-4e8b-9d6e-5d06d28516c8.png" width="250px">
+</div>
 
 # Source Code Introduction
 
