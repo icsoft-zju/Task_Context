@@ -36,7 +36,15 @@ When clicking on a code element in the *Suggestions* view, the editor jumps to t
 <img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="600px">
 </div>
 
+# Source Code Introduction
 
+## edu.zju.icsoft.taskcontext.view
+In this package, we create *Task Context* view and *Suggestions* view.  
+### Task Context view   
+- The file *InterestCodeView.java* implements the creation, integration and various functions of the view. Including capturing code elements accessed by developers, building the initial context model, filtering recent task context model by parameter *time sliding*, expanding recent task context model by parameter *prediction step*, assigning stereoty role, performing pattern matching, and generating recommended code elements.
+- The file *InterestCodeWindow* is responsible for the view's elements (e.g., tree) and its layout.
 
+### Suggestions view  
 
+## edu.zju.icsoft.taskcontext.util
 
