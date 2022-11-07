@@ -79,7 +79,7 @@ This package is used to storage and packaging of code elements, structural relat
 
 
 ### jstereocode
-This package is used to assign stereotype for code elements.
+This package is used to assign stereotype role for code elements.
 
 ### vf3     
 This package is used to perform pattern matching. 
