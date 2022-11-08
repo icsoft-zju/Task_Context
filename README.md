@@ -108,3 +108,11 @@ This package is used to store topological patterns.
 
 # License  
 This code is open source software licensed under the Apache 2.0 License. Feel free to use it accordingly.
+
+
+# Contributing  
+## Author  
+Intelligent Computing and Software Center of Zhejiang University (icsoft-zju)   
+## Contributor
+- yuhang lin (GitHub: Alin-kk, email: lin_yh@zju.edu.cn)
+- yifeng wang (GitHub: Evan-AFeng, email: yifeng.wang@zju.edu.cn)
