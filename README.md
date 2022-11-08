@@ -83,3 +83,6 @@ This package is used to assign stereotype role for code elements.
 
 ### vf3     
 This package is used to perform pattern matching. 
+
+## pattern_mylyn  
+This package is used to store topological patterns.
