@@ -1,9 +1,9 @@
 # Background
-The repository is the republication package of paper---ICSE_2023_Task Context: A Tool for Predicting Code Context Models for Software Development Tasks. The repository has packaged the project as a deployable plug-in (**Task Context**), and researches can directly integrate *Task Context* into the local Eclipse environment.
+The repository is the replication package of paper---ICSE_2023_Task Context: A Tool for Predicting Code Context Models for Software Development Tasks. The repository has packaged the project as a deployable plug-in (**Task Context**), and researches can directly integrate *Task Context* into the local Eclipse environment.
 
 
 # Requirement   
-We use the following configuration for development and testing:   
+We use the following requirements for development and testing:   
 - JDK: 17.0.2  
 ```     
 https://www.oracle.com/java/technologies/downloads/#java17   
