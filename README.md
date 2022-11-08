@@ -1,15 +1,25 @@
 # Background
-The repository is the republication package of paper---ICSE_2023_Task Context: A Tool for Predicting Code Context Models for Software Development Tasks. The repository has packaged the project as a deployable plug-in (**Task Context**), and researches can directly integrate the Task Context into the local Eclipse environment.
-
-# Install
-1. **Obtain the Task Context**: Download this repository and unzip it, and then copy the Task Context (*edu.zju.icsoft.taskcontext_1.0.0.202211031347.jar*) from it.
-2. **Integrate the Task Context into Eclipse**: Paste the Task Context into the *dropins* folder in the Eclipse root directory.
-3. Restart Eclipse.
+The repository is the republication package of paper---ICSE_2023_Task Context: A Tool for Predicting Code Context Models for Software Development Tasks. The repository has packaged the project as a deployable plug-in (**Task Context**), and researches can directly integrate *Task Context* into the local Eclipse environment.
 
 
-<div align=center>
-<img width="521" alt="image" src="https://user-images.githubusercontent.com/94530603/200495584-fafa00c3-88bd-49ba-a262-45cc87226162.png">
-</div>
+# Requirement   
+We use the following configuration for development and testing:   
+- JDK: 17.0.2  
+```     
+https://www.oracle.com/java/technologies/downloads/#java17   
+```   
+- IDE: Eclipse IDE for Enterprise Java and Web Developers
+```   
+https://www.eclipse.org/downloads/packages/release/2022-09/r/eclipse-ide-enterprise-java-and-web-developers     
+```  
+
+
+# Install   
+Researchers can install our plug-ins in the following two ways:  
+1. Integrate the plugin directly into their local Eclipse via: https://github.com/icsoft-zju/Task_Context/blob/master/INSTALL.md.  
+2. Download this repository and configure the environment via: https://github.com/icsoft-zju/Task_Context/blob/master/REQUIREMENTS.md.     
+
+We recommend using the first method.
 
 
 # Configure  
@@ -19,7 +29,7 @@ Click *Window* -> *Show View* -> *Other...* -> *InterestView*. Open *Task Contex
 Researchers could adjust the two views to a comfortable position and size.  
 
 2. **Parameters**   
-**time sliding**: The *time sliding* parameter is used to filter the most recently accessed code elements in the *Task Context* view and generate recommended code elements in the *Suggestions* view based on these filtered code elements.  
+**time sliding**: The *time sliding* parameter is used to filter the most recently accessed code elements in *Task Context* view and generate recommended code elements in the *Suggestions* view based on these filtered code elements.  
 **prediction step**: The *prediction step* parameter is used to specify the range of recommended code elements, the more the number of steps, the larger the recommended range.
 
 <div align=center>
