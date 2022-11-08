@@ -78,7 +78,7 @@ Note that when the recommendation range is large and many nodes are involved, *T
 
 # Source Code Introduction
 
-## edu.zju.icsoft.taskcontext.view
+## 1. edu.zju.icsoft.taskcontext.view
 In this package, we create *Task Context* view and *Suggestions* view.  
 ### Task Context view   
 - The file *InterestCodeView.java* implements the creation, integration and various functions of the view. Including capturing code elements accessed by developers, building the initial context model, filtering recent task context model by parameter *time sliding*, expanding recent task context model by parameter *prediction step*, assigning stereotype role, performing pattern matching, and generating recommended code elements.  
@@ -88,7 +88,7 @@ In this package, we create *Task Context* view and *Suggestions* view.
 - The file *PredictCodeView.java* implements the creation, integration and various functions of the view (e.g., sorting the list of recommended code elements, positioning to the editor when clicking on a recommended code element).  
 - The file *PredictCodeWindow* is responsible for the view's elements (e.g., table) and its layout.  
 
-## edu.zju.icsoft.taskcontext.util
+## 2. edu.zju.icsoft.taskcontext.util
 
 ### analysis   
 This package is used to parse the java project and get the structural relationship of the code elements within the project.
@@ -103,5 +103,8 @@ This package is used to assign stereotype role for code elements.
 ### vf3     
 This package is used to perform pattern matching. 
 
-## pattern_mylyn  
+## 3. pattern_mylyn  
 This package is used to store topological patterns.
+
+# License  
+This code is open source software licensed under the Apache 2.0 License. Feel free to use it accordingly.
