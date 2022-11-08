@@ -101,7 +101,7 @@ This package is used to perform pattern matching.
 This package is used to store topological patterns.
 
 # License  
-This code is open source software licensed under the [Apache 2.0 License](https://github.com/icsoft-zju/Task_Context/blob/master/LICENSE). Feel free to use it accordingly.
+This code is open source software licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html). Feel free to use it accordingly.
 
 
 # Contributing  
