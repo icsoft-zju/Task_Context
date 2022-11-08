@@ -4,14 +4,8 @@ The repository is the replication package of paper---ICSE_2023_Task Context: A T
 
 # Requirement   
 We use the following requirements for development and testing:   
-- JDK: 17.0.2  
-```     
-https://www.oracle.com/java/technologies/downloads/#java17   
-```   
-- IDE: Eclipse IDE for Enterprise Java and Web Developers
-```   
-https://www.eclipse.org/downloads/packages/release/2022-09/r/eclipse-ide-enterprise-java-and-web-developers     
-```  
+- [JDK: 17.0.2](https://www.oracle.com/java/technologies/downloads/#java17)      
+- [IDE: Eclipse IDE for Enterprise Java and Web Developers](https://www.eclipse.org/downloads/packages/release/2022-09/r/eclipse-ide-enterprise-java-and-web-developers)  
 
 
 # Install   
@@ -107,7 +101,7 @@ This package is used to perform pattern matching.
 This package is used to store topological patterns.
 
 # License  
-This code is open source software licensed under the Apache 2.0 License. Feel free to use it accordingly.
+This code is open source software licensed under the [Apache 2.0 License](https://github.com/icsoft-zju/Task_Context/blob/master/LICENSE). Feel free to use it accordingly.
 
 
 # Contributing  
