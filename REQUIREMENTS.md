@@ -7,5 +7,3 @@ https://www.oracle.com/java/technologies/downloads/#java17
 ```   
 https://www.eclipse.org/downloads/packages/release/2022-09/r/eclipse-ide-enterprise-java-and-web-developers     
 ```
-
-1
