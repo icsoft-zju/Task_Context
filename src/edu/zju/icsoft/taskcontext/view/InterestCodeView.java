@@ -50,14 +50,18 @@ import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.ViewPart;
 
-import edu.wayne.cs.severe.jstereocode.core.analyzer.ProjectInformation;
-import edu.wayne.cs.severe.jstereocode.core.element.StereotypeIdentifier;
 import edu.zju.icsoft.taskcontext.TCPluginImages;
-import edu.zju.icsoft.taskcontext.analyze.Analyzer;
-import edu.zju.icsoft.taskcontext.geometry.Graph;
-import edu.zju.icsoft.taskcontext.geometry.Relationship;
-import edu.zju.icsoft.taskcontext.geometry.ToolNode;
-import edu.zju.icsoft.taskcontext.timeslide.TimeNode;
+import edu.zju.icsoft.taskcontext.util.analysis.Analyzer;
+import edu.zju.icsoft.taskcontext.util.graph.Graph;
+import edu.zju.icsoft.taskcontext.util.graph.Relationship;
+import edu.zju.icsoft.taskcontext.util.graph.TimeNode;
+import edu.zju.icsoft.taskcontext.util.jstereocode.ProjectInformation;
+import edu.zju.icsoft.taskcontext.util.jstereocode.StereotypeIdentifier;
+import edu.zju.icsoft.taskcontext.util.vf3.ToolNode;
+
+
+
+
 
 public class InterestCodeView extends ViewPart {
 

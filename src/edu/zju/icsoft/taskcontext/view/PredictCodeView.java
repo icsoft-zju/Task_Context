@@ -2,6 +2,7 @@ package edu.zju.icsoft.taskcontext.view;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+
 import javax.inject.Inject;
 
 import org.eclipse.jdt.core.ICompilationUnit;
@@ -26,8 +27,9 @@ import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.ViewPart;
+
 import edu.zju.icsoft.taskcontext.TCPluginImages;
-import edu.zju.icsoft.taskcontext.geometry.ToolNode;
+import edu.zju.icsoft.taskcontext.util.vf3.ToolNode;
 
 public class PredictCodeView extends ViewPart {
 

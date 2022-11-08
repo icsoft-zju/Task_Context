@@ -16,4 +16,3 @@ Automatic-Module-Name: com.icsoft.lyh.codeelementpredict
 Bundle-ActivationPolicy: lazy
 Import-Package: javax.inject,
  org.eclipse.search.internal.ui.text
-Export-Package: edu.zju.icsoft.taskcontext.geometry
