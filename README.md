@@ -8,13 +8,14 @@ We use the following requirements for development and testing:
 
 
 # Install   
-1. **Download Task Context**: [edu.zju.icsoft.taskcontext_1.0.0.202211081403.jar](https://github.com/icsoft-zju/Task_Context/blob/master/edu.zju.icsoft.taskcontext_1.0.0.202211081403.jar).
+1. **Download Task Context**: [edu.zju.icsoft.taskcontext_1.0.0.202211161857.jar](https://github.com/icsoft-zju/Task_Context/blob/master/edu.zju.icsoft.taskcontext_1.0.0.202211161857.jar).
 2. **Integrate Task Context into Eclipse**: Paste *Task Context* into the *dropins* folder in the Eclipse root directory.
 3. Restart Eclipse.
 
 
+
 <div align=center>
-<img width="521" alt="image" src="https://user-images.githubusercontent.com/94530603/200495584-fafa00c3-88bd-49ba-a262-45cc87226162.png">
+<img width="521" alt="image" src="https://user-images.githubusercontent.com/94530603/202163828-64dd0f07-7885-4450-a012-609ab7967cf0.png">
 </div>
 
 
@@ -63,10 +64,10 @@ When clicking on a code element in the *Suggestions* view, the editor jumps to t
 <img src="https://user-images.githubusercontent.com/94530603/199679819-aa3c563e-0276-463a-ba48-7ffd7bb6160e.png" width="700px">
 </div>
 
-Note that when the recommendation range is large and many code elements are involved, *Task Context* may take too long to recommend. At this point, *Task Context* will pop up a timeout reminder and the developer can lower the parameter *prediction step* to narrow the recommendation.
+Note that when the recommendation range is large and many code elements are involved, *Task Context* may take too long to recommend. At this point, *Task Context* will pop up a timeout reminder and the developer can lower the parameter *Prediction Steps* to narrow the recommendation.
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/94530603/199949355-8b034a93-90a0-4e8b-9d6e-5d06d28516c8.png" width="250px">
+<img src="https://user-images.githubusercontent.com/94530603/202164310-ef2754f4-38c5-431c-81f8-1d8fe42c56de.png" width="250px">
 </div>
 
 # Source Code Introduction
@@ -74,7 +75,7 @@ Note that when the recommendation range is large and many code elements are invo
 ## 1. edu.zju.icsoft.taskcontext.view
 In this package, we create the *Task Context* view and the *Suggestions* view.  
 ### 1.1 Task Context view   
-- The file *InterestCodeView.java* implements the creation, integration, and various functions of the view. Including capturing code elements accessed by developers, building the initial context model, filtering the recent task context model by parameter *time sliding*, expanding the recent task context model by parameter *prediction step*, assigning stereotype roles, performing pattern matching, and generating recommended code elements.  
+- The file *InterestCodeView.java* implements the creation, integration, and various functions of the view. Including capturing code elements accessed by developers, building the initial context model, filtering the recent task context model by parameter *Time Window*, expanding the recent task context model by parameter *Prediction Steps*, assigning stereotype roles, performing pattern matching, and generating recommended code elements.  
 - The file *InterestCodeWindow* is responsible for the view's elements (e.g., tree) and its layout.
 
 ### 1.2 Suggestions view  
