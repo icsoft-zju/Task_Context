@@ -173,8 +173,8 @@ public class InterestCodeView extends ViewPart {
 		fillLocalPullDown(bars.getMenuManager());
 	}
 	private void fillLocalPullDown(IMenuManager manager) {
-		MenuManager timeSlide = new MenuManager("time sliding");
-		MenuManager predictionStep = new MenuManager("prediction steps"); 
+		MenuManager timeSlide = new MenuManager("Time Window");
+		MenuManager predictionStep = new MenuManager("Prediction Steps"); 
 		for(Action action: timeActions) {
 			timeSlide.add(action);
 		}
