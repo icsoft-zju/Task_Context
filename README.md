@@ -26,7 +26,7 @@ Researchers could adjust the two views to a comfortable position and size.
 
 2. **Parameters**   
 **Time Window**: The *Time Window* parameter is used to filter the most recently accessed code elements in the *Task Context* view and generate recommended code elements in the *Suggestions* view based on these filtered code elements.  
-**Prediction Step**: The *Prediction Step* parameter is used to specify the range of recommended code elements, the more the number of steps, the larger the recommended range.
+**Prediction Steps**: The *Prediction Steps* parameter is used to specify the range of recommended code elements, the more the number of steps, the larger the recommended range.
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/94530603/199682334-1116cc78-b3ec-4dcb-996a-9ab8ba4526cb.png" width="300px">
