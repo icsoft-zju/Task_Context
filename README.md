@@ -109,5 +109,5 @@ This code is open-source software licensed under the [Apache 2.0 License](https:
 ## Author  
 Intelligent Computing and Software Center of Zhejiang University (icsoft-zju)   
 ## Contributor
-- yuhang lin (GitHub: Alin-kk, email: lin_yh@zju.edu.cn)
-- yifeng wang (GitHub: Evan-AFeng, email: yifeng.wang@zju.edu.cn)
+- Yuhang Lin (GitHub: Alin-kk, email: lin_yh@zju.edu.cn)
+- Yifeng Wang (GitHub: Evan-AFeng, email: yifeng.wang@zju.edu.cn)
