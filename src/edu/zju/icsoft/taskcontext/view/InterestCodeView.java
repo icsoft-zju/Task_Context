@@ -344,7 +344,7 @@ public class InterestCodeView extends ViewPart {
 		Display display = Display.getCurrent();
 		Shell shell = new Shell(display);
 		MessageBox mBox = new MessageBox(shell);
-		mBox.setMessage("Time Out! Please adjust the prediction step.");
+		mBox.setMessage("Time Out! Please adjust the Prediction Steps.");
 		mBox.open();
 		graph.setT();
 	}
